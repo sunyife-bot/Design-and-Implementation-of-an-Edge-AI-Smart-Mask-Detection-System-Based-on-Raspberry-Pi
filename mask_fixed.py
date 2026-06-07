@@ -619,7 +619,6 @@ def main():
                     api_call_count += 1
                     print(f"[{now()}] Detecting a person/eye, invoking the API， {api_call_count} times")
 
-            # 画本地触发框
             draw_local_boxes(frame, faces, eyes)
 
             with lock:
